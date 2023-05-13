@@ -58,7 +58,7 @@ void to_delete(Node*&tail,int val){
       prev=curr;
       curr=curr->Next;
    }
-    // if list is empty 
+    // if list is with single node prev,curr=prev-next means prev
      if(prev==curr){
        tail=NULL;
         cout<<" list is Empty Now "<<endl;
